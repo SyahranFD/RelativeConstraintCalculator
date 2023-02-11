@@ -66,9 +66,9 @@ public class LoginPage extends AppCompatActivity {
                     // to save our data with key and value.
                     editor.apply();
 
-//                    Intent calculator = new Intent(LoginPage.this,Calculator.class);
-//                    startActivity(calculator);
-//                    finish();
+                    Intent calculator = new Intent(LoginPage.this,Calculator.class);
+                    startActivity(calculator);
+                    finish();
 
                 }else{
 
